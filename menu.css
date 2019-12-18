@@ -1,0 +1,66 @@
+/* decoracao */
+body {
+    margin: 0;
+    text-align: center;
+}
+/* animado */
+html,
+body {
+    overflow-x: hidden;
+    width: 100%;
+    background-color: #FFF1EE;
+}
+.container-menus {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    -webkit-transition: transform 300ms ease;
+            transition: -webkit-transform 300ms ease;
+    width: 200%;
+}
+/* hack android velho */
+body { -webkit-animation: bugfix infinite 1s; }
+@-webkit-keyframes bugfix {
+  from { padding: 0; }
+  to { padding: 0; }
+}
+
+.justify{
+    text-align: justify;
+    text-justify: inter-word;
+}
+.center{
+    text-align: center;
+    font-weight: bolder;
+}
+.center p{
+    font-size: 20px;
+}
+p{
+    font-size: 18px;
+    line-height: 1.6;
+}
+.img30{
+    border-radius: 33%;
+    height: 90px;
+}
+
+nav a{
+    font-size: 18px;
+    font-weight: bolder;
+    color: black;
+}
+figcaption{
+    margin-top: 6px;
+    margin-right: 10px;
+    font-weight: bolder;
+}
+.navbar{
+    background-color: #FFFFFF;
+}
+
+figure img{
+    min-width: 280px;
+}
+a{
+    color: black;
+}

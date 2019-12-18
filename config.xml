@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets"
+        xmlns:gap="http://phonegap.com/ns/1.0"
+        id="https://github.com/flartur95"
+        version="1.0.0">
+
+    <name>
+        PROAME
+    </name>
+
+    <description>
+        Aplicativo PROAME.
+    </description>
+
+    <author href="https://github.com/flartur95" email="flartur95@gmail.com">
+        Artur França Lezama
+    </author>
+
+    <preference name="orientation" value="portrait" />
+    <preference name="fullscreen" value="true" />
+    <preference name="permissions" value="none" />
+    <platform name="android" />
+
+    <icon src="icon.png" />
+    <plugin name="cordova-plugin-splashscreen" />
+    <splash src="splash.png" />
+    
+    <plugin name="cordova-plugin-whitelist" source="npm" spec="1.1.0" />
+    <allow-navigation href="*" />
+    <allow-intent href="*" />
+</widget>
