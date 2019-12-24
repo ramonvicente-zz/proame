@@ -57,6 +57,10 @@ figcaption{
 }
 .navbar{
     background-color: #5DB445;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    float: right;
 }
 
 figure img{
@@ -80,6 +84,7 @@ a{
     font-family: sans-serif;
     font-size: 40px;
     color: #088A08;
+    line-height: 1;
 }
 
 .title-2 {
@@ -101,4 +106,8 @@ a{
     color: #000000;
     border: 10px;
     border-color: #f4511e;
+}
+
+main{
+    padding-top: 50px;
 }
