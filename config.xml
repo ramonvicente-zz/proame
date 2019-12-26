@@ -19,6 +19,8 @@
     <preference name="orientation" value="portrait" />
     <preference name="fullscreen" value="true" />
     <preference name="permissions" value="none" />
+    <preference name="android-minSdkVersion" value="19" />
+    <preference name="android-installLocation" value="auto" />
     <platform name="android" />
 
     <icon src="icon.png" />
@@ -28,4 +30,5 @@
     <plugin name="cordova-plugin-whitelist" source="npm" spec="1.1.0" />
     <allow-navigation href="*" />
     <allow-intent href="*" />
+    
 </widget>
