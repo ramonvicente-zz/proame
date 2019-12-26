@@ -1,77 +1,94 @@
 /* decoracao */
+
 body {
     margin: 0;
     text-align: center;
 }
+
+
 /* animado */
+
 html,
 body {
     overflow-x: hidden;
     width: 100%;
-    background-color: #E7FCE1;
-}
-.container-menus {
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
-    -webkit-transition: transform 300ms ease;
-            transition: -webkit-transform 300ms ease;
-    width: 200%;
-}
-/* hack android velho */
-body { -webkit-animation: bugfix infinite 1s; }
-@-webkit-keyframes bugfix {
-  from { padding: 0; }
-  to { padding: 0; }
+    background-color: #FFE5AD;
 }
 
-.justify{
+.container-menus {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    -webkit-transition: transform 300ms ease;
+    transition: -webkit-transform 300ms ease;
+    width: 200%;
+}
+
+
+/* hack android velho */
+
+body {
+    -webkit-animation: bugfix infinite 1s;
+}
+
+@-webkit-keyframes bugfix {
+    from {
+        padding: 0;
+    }
+    to {
+        padding: 0;
+    }
+}
+
+.justify {
     text-align: justify;
     text-justify: inter-word;
 }
-.center{
+
+.center {
     text-align: center;
     font-weight: bolder;
 }
-.center p{
+
+.center p {
     font-size: 20px;
 }
-p{
-    font-size: 18px;
+
+p {
+    font-size: 20px;
     line-height: 1.6;
 }
 
-.img30{
+.img30 {
     border-radius: 33%;
     height: 90px;
 }
 
-nav a{
+nav a {
     font-size: 18px;
     font-weight: bolder;
     color: black;
 }
-figcaption{
+
+figcaption {
     margin-top: 6px;
     margin-right: 10px;
     font-weight: bolder;
 }
-.navbar{
-    background-color: #5DB445;
-    position: fixed;
+
+.navbar {
+    background-color: #FBC758;
     width: 100%;
     top: 0;
-    float: right;
+    position: fixed;
+    z-index: 1;
 }
 
-figure img{
+figure img {
     min-width: 280px;
 }
-a{
-    color: black;
-}
 
-#body-posicao {
-    background-color: #E7FCE1;
+a {
+    color: black;
 }
 
 .btn-posicao {
@@ -83,7 +100,7 @@ a{
 .title-1 {
     font-family: sans-serif;
     font-size: 40px;
-    color: #088A08;
+    color: #D16500;
     line-height: 1;
 }
 
@@ -91,6 +108,7 @@ a{
     font-family: sans-serif;
     font-size: 25px;
 }
+
 
 /* .icon-ok {
     color: ;
@@ -102,12 +120,32 @@ a{
 }
 
 .jumbotron {
-    background-color: #FACC2E;
+    background-color: #EEDC2F;
     color: #000000;
     border: 10px;
-    border-color: #f4511e;
+    border-color: #FACC2E;
 }
 
-main{
+main {
     padding-top: 50px;
+}
+
+.text-mark {
+    font-weight: 350;
+}
+
+@media screen and (max-width: 400px) {
+    .img-preparando {
+        width: 200px;
+        height: 625px;
+    }
+}
+
+.icon {
+    font-size: 30px;
+    color: #f4511e;
+}
+
+.icon-grande {
+    font-size: 50px;
 }
