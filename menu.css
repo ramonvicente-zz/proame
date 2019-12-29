@@ -115,12 +115,14 @@ a {
 } */
 
 .number-list {
-    font-size: 20px;
+    font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
+    color: #D16500;
+    font-weight: 500;
 }
 
 .jumbotron {
-    background-color: #EEDC2F;
+    background-color: #FBC758;
     color: #000000;
     border: 10px;
     border-color: #FACC2E;
@@ -134,10 +136,10 @@ main {
     font-weight: 350;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
     .img-preparando {
         width: 200px;
-        height: 625px;
+        height: 730px;
     }
 }
 
@@ -148,4 +150,18 @@ main {
 
 .icon-grande {
     font-size: 50px;
+}
+
+/* .btn-voltar {
+    padding-left: 0px;
+}
+
+.btn-menu {
+    padding-right: 10px;
+} */
+
+.icon-menu{
+    color: #F58218;
+    font-size: 70px;
+    
 }
