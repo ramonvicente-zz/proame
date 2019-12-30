@@ -83,6 +83,11 @@ figcaption {
     z-index: 1;
 }
 
+.navbar-space {
+    padding-left: 140px !important;
+    padding-right:140px !important;
+}
+
 figure img {
     min-width: 280px;
 }
@@ -108,11 +113,6 @@ a {
     font-family: sans-serif;
     font-size: 25px;
 }
-
-
-/* .icon-ok {
-    color: ;
-} */
 
 .number-list {
     font-size: 30px;
@@ -156,4 +156,17 @@ main {
     color: #F58218;
     font-size: 70px;
     
+}
+
+@media screen and (max-width: 400px) {
+    .navbar-space {
+        padding-left: 120px !important;
+        padding-right:120px !important;
+    }
+}
+@media screen and (max-width: 360px) {
+    .navbar-space {
+        padding-left: 100px !important;
+        padding-right:100px !important;
+    }
 }
